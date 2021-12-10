@@ -16,7 +16,7 @@ const RNCustomeRecommendModule = NativeModules.RNCustomeRecommendBridge
 
 const styles = StyleSheet.create({
 	image: {
-		width: 24,
+		width: 25,
 		height: 18,
 	},
 	backgroundContainer: {

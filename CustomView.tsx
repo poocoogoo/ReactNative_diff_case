@@ -52,7 +52,7 @@ export default class CustomView extends React.PureComponent<Props> {
 			/// 逻辑 1.B
 			favoriteImageView = <Image
 				style={styles.image as ImageStyle}
-				source={ require('../images/poi_list_mask_selected_favorite_icon.png') }
+				source={ require('../images/poi_list_mask_selected_favorite_icon2.png') }
 			/>
 		}
 		/// 差异代码块....end

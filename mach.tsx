@@ -42,7 +42,7 @@ class MachCustomView extends Component<Props> {
 				{/* 第二种：直接使用 */}
 				<Image className={"mt-ship-time-explain-icon"}
 				       src={"assets://images/wm_mt_explain_alert_ic.png"}
-				       style={{"margin-top" : (this.env.osName === 'ios' ? "1dp" : "4dp")}}
+				       style={{"margin-top" : (this.env.osName === 'ios' ? "2dp" : "4dp")}}
 				      />}
 				{api.address_info.address && this.env.osName === 'ios' && (
 					<order-rich-text className="address-text"

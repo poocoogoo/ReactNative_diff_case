@@ -1,6 +1,6 @@
 import { Env } from '@helloworld/rn-common'
 
-export const kFavoriteURL = Env.isIOS() ? './ddddd.png': './bbbb.png';
+export const kFavoriteURL = Env.isIOS() ? './ddddd.png': './bbb2.png';
 
 
 export function getAppType() {

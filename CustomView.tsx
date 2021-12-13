@@ -89,7 +89,7 @@ export default class CustomView extends React.PureComponent<Props> {
 		/// 第4种：具体某个业务端不一样
 		let scheme = ''
 		if (Env.isWM()) {
-			scheme = 'kkkkk://ddd.sddd.com/search'
+			scheme = 'kkkkk://ddd.sddd.com/search_list'
 		} else if (Env.isMT()) {
 			scheme = 'kkkkk://ddd.sddd.com/mt/search'
 		} else if (Env.isDP()) {
@@ -98,6 +98,7 @@ export default class CustomView extends React.PureComponent<Props> {
 		
 		if (scheme.length > 0) {
 			/// 逻辑 4.A
+			console.log('逻辑 4.A');
 		} else {
 			/// 逻辑 4.B
 		}

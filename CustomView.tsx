@@ -106,10 +106,10 @@ export default class CustomView extends React.PureComponent<Props> {
 		
 		/// 第5种：端采用变量引用，ifstmt 和 ConditionalExpression
 		const isWM = Env.isWM()
-		const result = isWM ? 'ddd': 'eeee';
+		const result = isWM ? 'fff': 'eeee';
 		let ddValue = '';
 		if (isWM) {
-			ddValue = 'a';
+			ddValue = 'd';
 		} else {
 			ddValue = 'b';
 		}
@@ -119,7 +119,7 @@ export default class CustomView extends React.PureComponent<Props> {
 			
 		} else {
 			/// 逻辑 5.B
-			const ddFrom = ddValue + 'DDD';
+			const ddFrom = ddValue + 'FFF';
 			/// ....
 		}
 		

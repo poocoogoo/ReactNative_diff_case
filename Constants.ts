@@ -7,7 +7,7 @@ export function getAppType() {
 	if (Env.isMT()) {
 		return 30000;
 	} else if (Env.isWM()) {
-		return 10000;
+		return 50000;
 	} else {
 		return 200000;
 	}

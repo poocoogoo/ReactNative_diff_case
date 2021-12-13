@@ -73,12 +73,14 @@ export default class CustomView extends React.PureComponent<Props> {
 			)
 		} else if (WMEnv.isIOS) {
 			/// 逻辑 3.B
+			const logText = 'Text';
+			console.log(logText);
 			backgroundView = (
 				<View style={styles.backgroundContainer}>
 					<Image
 						style={styles.labelBackground as ImageStyle}
 						source={require('../assets/images/icon_city_deliver_score_bg_ios.png')}
-						capInsets={{top: 0, left: 5, bottom: 0, right: 16}}
+						capInsets={{top: 0, left: 6, bottom: 0, right: 16}}
 						resizeMode='stretch'/>
 				</View>
 			)

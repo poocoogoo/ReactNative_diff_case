@@ -30,7 +30,7 @@ class MachCustomView extends Component<Props> {
 					<Richtext className="page-sub-title" content={api.page_sub_title}/>
 					{
 						isAndroid &&
-                        <Text className="commit-btn" content={commitTextContent}
+                        <Text className="commit-btn" content={'hello'}
                                click={schemaUrl}/>
 					}
 					{
